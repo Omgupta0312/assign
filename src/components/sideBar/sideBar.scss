@@ -1,0 +1,87 @@
+.sideBar {
+    width: 320px;
+    height: 100vh;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .up {
+        width: 280px;
+        height: 25vh;
+        background-color: black;
+        margin: auto;
+
+        .up-1 {
+            width: 50%;
+            height: 20%;
+            margin-left: 10px;
+            padding-left: 10px;
+
+            #name {
+                color: red;
+            }
+
+            #designation {
+                color: gray;
+                font-size: large;
+            }
+
+        }
+
+        .up-2 {
+            width: 100%;
+            height: 20%;
+            display: grid;
+            grid-template-columns: 1fr 40px 1fr;
+            margin-top: 70px;
+
+            .up-2-left {
+                width: 80%;
+                height: 100%;
+                background-color: aqua;
+                padding-left: 10px;
+            }
+
+            .up-2-right {
+                width: 80%;
+                height: 100%;
+                background-color: aqua;
+            }
+        }
+    }
+
+    .mid {
+        width: 280px;
+        height: 40vh;
+        background-color: aliceblue;
+        margin: auto;
+    }
+
+    .low {
+        width: 280px;
+        height: 25vh;
+        background-color: aquamarine;
+        margin: auto;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-family: Arial;
+
+        .low-button-con {
+            padding-left: 40%;
+        }
+
+        .button {
+            -webkit-border-radius: 22;
+            -moz-border-radius: 22;
+            border-radius: 22px;
+            font-family: Arial;
+            color: #fdf8f8;
+            font-size: 20px;
+            background: black;
+            padding: 10px 20px 10px 20px;
+            text-decoration: none;
+        }
+    }
+}
